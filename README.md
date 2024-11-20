@@ -15,18 +15,29 @@ midi_out = 'APC MINI';    //set correct midi out device name
 
 mk2 version and mk2 color
 
+
+----------------
+
 //config 
+
 wing = 1;   //set wing 1 or 2 (or 3)
+
 pageselect = 1;   //set page select mode - 0-off, 1-only exec buttons(5), 2-exec buttons and faders together(5)
+
 midi_in = 'APC mini mk2';     //set correct midi in device name
+
 midi_out = 'APC mini mk2';    //set correct midi out device name
+
 brightness = 6;     //led brightness 0-6
+
 darkmode = 0;   //new color mode 1 - ON , 0 - OFF
+
 autocolor = 1;  //Executors color from apperance - 0 = off, 1 = ON
+
 blink = 0;      //no color Executor blink 1=on, 0=off 
 
-
 --------------------------------
+
 WING MODES
 
 
@@ -48,8 +59,7 @@ faders
 
 1 - 8 + grand master fader
 
-
-
+--------------------------------------------------------------------------------------
 
 WING = 2
 
@@ -69,8 +79,7 @@ faders
 
 8 - 15 + speed master 1 + lern (shift button)
 
-
-
+--------------------------------------------------------------------------------------
 
 WING = 3
 
