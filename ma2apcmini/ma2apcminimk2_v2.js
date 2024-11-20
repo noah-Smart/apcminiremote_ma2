@@ -1,4 +1,4 @@
-//ma2apcmini mk2 v 1.5.2 by ArtGateOne 
+//apcminiremote_ma2  
 var easymidi = require('easymidi');
 var W3CWebSocket = require('websocket')
     .w3cwebsocket;
