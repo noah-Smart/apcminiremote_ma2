@@ -20,7 +20,7 @@ mk2 version and mk2 color
 
 //config 
 
-wing = 1;   //set wing 1 or 2 (or 3)
+wing = 1;   //set wing 1 or 2 
 
 pageselect = 1;   //set page select mode - 0-off, 1-only exec buttons(5), 2-exec buttons and faders together(5)
 
@@ -80,27 +80,6 @@ faders
 8 - 15 + speed master 1 + lern (shift button)
 
 --------------------------------------------------------------------------------------
-
-WING = 3
-
-Executors ( wing 1 - 2 x 5 view)
-
-131 - 140
-
-141 - 150
-
-151 - 160
-
-...
-
-191 - 190
-
-faders
-
-16 - 23 + grand master fader
-
-
--------------------------------
 
 
 Console connection:
