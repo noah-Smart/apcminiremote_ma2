@@ -1,4 +1,4 @@
-//ma2apcmini mk2 v 1.5.3 color - by ArtGateOne 
+//apcminiremote_ma2
 var easymidi = require('easymidi');
 var W3CWebSocket = require('websocket')
     .w3cwebsocket;
@@ -465,7 +465,7 @@ function led_feedback(i, j, l) {
     return;
 }
 
-// Mapa kolorów do velocity
+
 const colorToVelocity = {
     '#000000': 0, '#1E1E1E': 1, '#7F7F7F': 2, '#FFFFFF': 3,
     '#FF4C4C': 4, '#FF0000': 5, '#590000': 6, '#190000': 7,
@@ -501,7 +501,7 @@ const colorToVelocity = {
     '#B9B000': 124, '#3F3100': 125, '#B35F00': 126, '#4B1502': 127
 };
 
-// Funkcja konwertująca kolor z heksadecymalnego na wartości RGB z walidacją
+
 function hexToRgb(hex) {
     if (!/^#([0-9A-F]{3}){1,2}$/i.test(hex)) {
         throw new Error('Nieprawidłowy format koloru: ' + hex);
@@ -513,14 +513,13 @@ function hexToRgb(hex) {
     return { r, g, b };
 }
 
-// Funkcja obliczająca odległość Manhattan między dwoma kolorami RGB
+
 function colorDistanceManhattan(color1, color2) {
     return Math.abs(color1.r - color2.r) +
         Math.abs(color1.g - color2.g) +
         Math.abs(color1.b - color2.b);
 }
 
-// Funkcja zwracająca velocity dla najbardziej zbliżonego koloru
 function getClosestVelocity(color) {
     let targetRgb = hexToRgb(color);
     let closestColor = null;
