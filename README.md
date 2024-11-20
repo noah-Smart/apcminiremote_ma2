@@ -1,43 +1,6 @@
-# ma2apcmini
-Nodejs code program - to control grandMA2 via web remote
+# apcminiremote_ma2
 
-use Akai APC mini midi controller or Akai APC mini mk2 - free - led feedback
-
-
-
-HOW TO!
-
-
-Download and install NodeJS version 14.17 from https://nodejs.org/dist/v14.17.0/node-v14.17.0-x64.msi
-
-Download my code archive & unrar to c: (or where U want)
-
-
-Start grandMA2
-
-Add user "apcmini" - password "remote"
-
-Tunr on web remote. (remotes - login enabled)
-
-Set node.exe as default tool to open .js file
-
-double click on icon  ma2apcmini.js (for apc mini)
-
-or if u have mk2 model
-
- ma2apcminimk2.js
-
-
----------------------------------
-
-
- 
-If need config 
-
-Edit ma2apcmini.js (use notepad)
-
-find this lines
-
+NodeJS version 14.17: https://nodejs.org/dist/v14.17.0/node-v14.17.0-x64.msi
 
 //config 
 
@@ -131,13 +94,11 @@ faders
 -------------------------------
 
 
-If U want connect to console:
-
-find this line
+Console connection:
 
 var client = new W3CWebSocket('ws://localhost:80/');
 
-and change localhost:80 to console IP Addres
+-> change localhost:80 to console IP Address
 
 -------------------------------- 
 
@@ -160,35 +121,13 @@ Color Green if run
 
 
 
-SCENE LAUCH BUTTONS ON RIGHT SIDE
+SCENE LAUNCH BUTTONS ON RIGHT SIDE
 
 Select PAGE 1-8
 
 
 last fader - Grand Master
 
-
-
----------
-
-
-If you get undefined 1 error (onPC version does not support this functionality)
-
-
-This code will not work with the older PC version of GrandMA2 (like 3.1.2.5) because this version does not have webremote control,
-
-
-U can use this code to control show only - not for programming
-
-------------------------
-
-
-!!! Program not work with old ma2onpc
-
-!! Program not work - if any executor have more then 1 row ! (thx Philipp Darpe)
-
-
---------------------
 
 Tips
 
