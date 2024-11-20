@@ -121,6 +121,7 @@ Color Yellow - if programed
 
 Color Green - if run
 
+-
 
 Faders ( 3 x 8 )
 
@@ -128,15 +129,17 @@ Color RED if programed
 
 Color Green if run
 
-
+-
 
 SCENE LAUNCH BUTTONS ON RIGHT SIDE
 
 Select PAGE 1-8
 
+-
 
 last fader - Grand Master
 
+-----------------------------------------------------------------------
 
 Tips
 
